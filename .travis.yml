@@ -3,7 +3,25 @@ python:
 - 3.4
 script: python3 test_fruits.py
 
-#safelist
+#installation
+  #before install
+
+  #install
+
+#script
+  #before_script
+  #script
+
+#after script
+  #after sucess
+  #after failure
+
+#deploy
+  #before deploy
+  #deploy
+  #after deploy
+  
+  #safelist
 branches:
   only:
   - master
