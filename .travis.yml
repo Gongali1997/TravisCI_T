@@ -1,16 +1,21 @@
 language: python
 python: 
 - 3.4
-script: python3 test_fruits.py
+
 
 #installation
   #before install
 
   #install
+install:
+  - plp install -r requierements.txt
 
 #script
   #before_script
   #script
+  
+script:
+  - python3 test_fruits.py
 
 #after script
   #after sucess
